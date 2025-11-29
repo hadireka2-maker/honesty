@@ -1,6 +1,6 @@
 # Pages Directory
 
-Folder ini berisi semua halaman (pages) yang terpisah untuk VenaPictures Studio.
+Folder ini berisi semua halaman (pages) yang terpisah untuk Honesty Pictures Studio.
 
 ## Struktur File
 

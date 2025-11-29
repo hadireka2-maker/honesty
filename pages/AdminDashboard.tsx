@@ -15,7 +15,7 @@ const AdminDashboard: React.FC = () => {
     <div className="min-h-screen bg-stone-50 pt-24 pb-12 px-6">
       <div className="container mx-auto max-w-6xl">
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-stone-800 text-white p-6 rounded-lg shadow-md cursor-default">
                 <div className="flex items-center justify-between mb-4">
                     <h2 className="text-xl font-serif">Portfolio Projects</h2>
@@ -38,6 +38,20 @@ const AdminDashboard: React.FC = () => {
                 <p className="text-xs text-stone-500 mb-4">Manage your linktree-style page and themes.</p>
                 <div className="flex gap-4 text-xs uppercase tracking-widest text-stone-500 group-hover:text-stone-800">
                    <span className="flex items-center gap-2">Go to Settings <ArrowRight size={12}/></span>
+                </div>
+            </div>
+
+            <div 
+                onClick={() => navigate('/admin/pricelist')}
+                className="bg-white text-stone-800 p-6 rounded-lg shadow-sm hover:shadow-md transition-all cursor-pointer border border-stone-200 group"
+            >
+                <div className="flex items-center justify-between mb-4">
+                    <h2 className="text-xl font-serif">Pricelist</h2>
+                    <ImageIcon size={20} className="text-stone-400 group-hover:text-stone-800 transition-colors" />
+                </div>
+                <p className="text-xs text-stone-500 mb-4">Upload and manage pricelist images.</p>
+                <div className="flex gap-4 text-xs uppercase tracking-widest text-stone-500 group-hover:text-stone-800">
+                   <span className="flex items-center gap-2">Manage <ArrowRight size={12}/></span>
                 </div>
             </div>
         </div>

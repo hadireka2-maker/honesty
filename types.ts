@@ -14,7 +14,7 @@ export interface NavItem {
   path: string;
 }
 
-export type LinkBioTheme = 'classic' | 'dark' | 'soft' | 'glass' | 'gradient' | 'neon' | 'minimal' | 'elegant' | 'vibrant';
+export type LinkBioTheme = 'classic' | 'dark' | 'soft' | 'glass' | 'sunset' | 'ocean' | 'forest' | 'rose' | 'midnight';
 
 export interface LinkBioItem {
   id: string;
@@ -28,6 +28,13 @@ export interface LinkBioProfile {
   bio: string;
   avatar: string;
   theme: LinkBioTheme;
+}
+
+export interface PricelistImage {
+  id: string;
+  url: string;
+  title: string;
+  active: boolean;
 }
 
 export const PORTFOLIO_DATA: Project[] = [

@@ -83,20 +83,20 @@ const AdminLinksManager: React.FC = () => {
              <a href="/#/links?theme=glass" target="_blank" className="flex items-center gap-1 bg-stone-700 text-white px-3 py-1.5 text-[10px] uppercase tracking-widest hover:bg-stone-600 transition-colors rounded-full">
                Glass <ExternalLink size={10} />
              </a>
-             <a href="/#/links?theme=gradient" target="_blank" className="flex items-center gap-1 bg-gradient-to-r from-purple-600 to-pink-500 text-white px-3 py-1.5 text-[10px] uppercase tracking-widest hover:from-purple-700 hover:to-pink-600 transition-colors rounded-full">
-               Gradient <ExternalLink size={10} />
+             <a href="/#/links?theme=sunset" target="_blank" className="flex items-center gap-1 bg-gradient-to-r from-stone-600 via-stone-700 to-stone-800 text-white px-3 py-1.5 text-[10px] uppercase tracking-widest hover:from-stone-700 hover:via-stone-800 hover:to-stone-900 transition-colors rounded-full">
+               Sunset <ExternalLink size={10} />
              </a>
-             <a href="/#/links?theme=neon" target="_blank" className="flex items-center gap-1 bg-slate-950 text-cyan-400 px-3 py-1.5 text-[10px] uppercase tracking-widest hover:bg-slate-900 transition-colors rounded-full border border-cyan-400">
-               Neon <ExternalLink size={10} />
+             <a href="/#/links?theme=ocean" target="_blank" className="flex items-center gap-1 bg-gradient-to-r from-stone-500 via-stone-600 to-stone-700 text-white px-3 py-1.5 text-[10px] uppercase tracking-widest hover:from-stone-600 hover:via-stone-700 hover:to-stone-800 transition-colors rounded-full">
+               Ocean <ExternalLink size={10} />
              </a>
-             <a href="/#/links?theme=minimal" target="_blank" className="flex items-center gap-1 bg-white text-gray-900 px-3 py-1.5 text-[10px] uppercase tracking-widest hover:bg-gray-100 transition-colors rounded-full border border-gray-900">
-               Minimal <ExternalLink size={10} />
+             <a href="/#/links?theme=forest" target="_blank" className="flex items-center gap-1 bg-gradient-to-r from-stone-600 to-stone-700 text-white px-3 py-1.5 text-[10px] uppercase tracking-widest hover:from-stone-700 hover:to-stone-800 transition-colors rounded-full">
+               Forest <ExternalLink size={10} />
              </a>
-             <a href="/#/links?theme=elegant" target="_blank" className="flex items-center gap-1 bg-gradient-to-r from-amber-200 to-yellow-200 text-slate-900 px-3 py-1.5 text-[10px] uppercase tracking-widest hover:from-amber-300 hover:to-yellow-300 transition-colors rounded-full">
-               Elegant <ExternalLink size={10} />
+             <a href="/#/links?theme=rose" target="_blank" className="flex items-center gap-1 bg-gradient-to-r from-stone-500 via-stone-600 to-stone-700 text-white px-3 py-1.5 text-[10px] uppercase tracking-widest hover:from-stone-600 hover:via-stone-700 hover:to-stone-800 transition-colors rounded-full">
+               Rose <ExternalLink size={10} />
              </a>
-             <a href="/#/links?theme=vibrant" target="_blank" className="flex items-center gap-1 bg-gradient-to-r from-blue-500 to-green-400 text-white px-3 py-1.5 text-[10px] uppercase tracking-widest hover:from-blue-600 hover:to-green-500 transition-colors rounded-full">
-               Vibrant <ExternalLink size={10} />
+             <a href="/#/links?theme=midnight" target="_blank" className="flex items-center gap-1 bg-gradient-to-r from-stone-700 via-stone-800 to-stone-900 text-white px-3 py-1.5 text-[10px] uppercase tracking-widest hover:from-stone-800 hover:via-stone-900 hover:to-black transition-colors rounded-full">
+               Midnight <ExternalLink size={10} />
              </a>
            </div>
         </div>
@@ -203,89 +203,89 @@ const AdminLinksManager: React.FC = () => {
                   <span className="text-xs uppercase tracking-wider text-stone-600">Glass</span>
                 </button>
 
-                {/* Gradient Theme */}
+                {/* Sunset Theme */}
                 <button 
-                  onClick={() => handleThemeChange('gradient')}
-                  className={`p-4 border text-center transition-all ${linkBioProfile.theme === 'gradient' ? 'border-stone-800 ring-1 ring-stone-800' : 'border-stone-200 hover:border-stone-400'}`}
+                  onClick={() => handleThemeChange('sunset')}
+                  className={`p-4 border text-center transition-all ${linkBioProfile.theme === 'sunset' ? 'border-stone-800 ring-1 ring-stone-800' : 'border-stone-200 hover:border-stone-400'}`}
                 >
-                  <div className="w-full h-24 bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 mb-2 rounded p-2 flex flex-col gap-1 items-center justify-center">
+                  <div className="w-full h-24 bg-gradient-to-br from-stone-600 via-stone-700 to-stone-800 mb-2 rounded p-2 flex flex-col gap-1 items-center justify-center">
                     <div className="w-6 h-6 rounded-full bg-white/30 backdrop-blur-sm"></div>
                     <div className="w-full space-y-1">
-                      <div className="w-full h-1.5 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full"></div>
-                      <div className="w-full h-1.5 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full"></div>
-                      <div className="w-full h-1.5 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full"></div>
-                      <div className="w-full h-1.5 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
                     </div>
                   </div>
-                  <span className="text-xs uppercase tracking-wider text-stone-600">Gradient</span>
+                  <span className="text-xs uppercase tracking-wider text-stone-600">Sunset</span>
                 </button>
 
-                {/* Neon Theme */}
+                {/* Ocean Theme */}
                 <button 
-                  onClick={() => handleThemeChange('neon')}
-                  className={`p-4 border text-center transition-all ${linkBioProfile.theme === 'neon' ? 'border-stone-800 ring-1 ring-stone-800' : 'border-stone-200 hover:border-stone-400'}`}
+                  onClick={() => handleThemeChange('ocean')}
+                  className={`p-4 border text-center transition-all ${linkBioProfile.theme === 'ocean' ? 'border-stone-800 ring-1 ring-stone-800' : 'border-stone-200 hover:border-stone-400'}`}
                 >
-                  <div className="w-full h-24 bg-slate-950 mb-2 rounded p-2 flex flex-col gap-1 items-center justify-center">
-                    <div className="w-6 h-6 rounded-full bg-cyan-400/30"></div>
+                  <div className="w-full h-24 bg-gradient-to-br from-stone-500 via-stone-600 to-stone-700 mb-2 rounded p-2 flex flex-col gap-1 items-center justify-center">
+                    <div className="w-6 h-6 rounded-full bg-white/30 backdrop-blur-sm"></div>
                     <div className="w-full space-y-1">
-                      <div className="w-full h-1.5 bg-transparent border-2 border-cyan-400 rounded-full shadow-lg shadow-cyan-500/50"></div>
-                      <div className="w-full h-1.5 bg-transparent border-2 border-cyan-400 rounded-full shadow-lg shadow-cyan-500/50"></div>
-                      <div className="w-full h-1.5 bg-transparent border-2 border-cyan-400 rounded-full shadow-lg shadow-cyan-500/50"></div>
-                      <div className="w-full h-1.5 bg-transparent border-2 border-cyan-400 rounded-full shadow-lg shadow-cyan-500/50"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
                     </div>
                   </div>
-                  <span className="text-xs uppercase tracking-wider text-stone-600">Neon</span>
+                  <span className="text-xs uppercase tracking-wider text-stone-600">Ocean</span>
                 </button>
 
-                {/* Minimal Theme */}
+                {/* Forest Theme */}
                 <button 
-                  onClick={() => handleThemeChange('minimal')}
-                  className={`p-4 border text-center transition-all ${linkBioProfile.theme === 'minimal' ? 'border-stone-800 ring-1 ring-stone-800' : 'border-stone-200 hover:border-stone-400'}`}
+                  onClick={() => handleThemeChange('forest')}
+                  className={`p-4 border text-center transition-all ${linkBioProfile.theme === 'forest' ? 'border-stone-800 ring-1 ring-stone-800' : 'border-stone-200 hover:border-stone-400'}`}
                 >
-                  <div className="w-full h-24 bg-white mb-2 rounded p-2 flex flex-col gap-1 items-center justify-center border border-gray-200">
-                    <div className="w-6 h-6 rounded-full bg-gray-900"></div>
+                  <div className="w-full h-24 bg-gradient-to-br from-stone-100 to-stone-200 mb-2 rounded p-2 flex flex-col gap-1 items-center justify-center border border-stone-300">
+                    <div className="w-6 h-6 rounded-full bg-stone-600"></div>
                     <div className="w-full space-y-1">
-                      <div className="w-full h-1.5 bg-gray-900 rounded-none"></div>
-                      <div className="w-full h-1.5 bg-gray-900 rounded-none"></div>
-                      <div className="w-full h-1.5 bg-gray-900 rounded-none"></div>
-                      <div className="w-full h-1.5 bg-gray-900 rounded-none"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-600 to-stone-700 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-600 to-stone-700 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-600 to-stone-700 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-600 to-stone-700 rounded-full"></div>
                     </div>
                   </div>
-                  <span className="text-xs uppercase tracking-wider text-stone-600">Minimal</span>
+                  <span className="text-xs uppercase tracking-wider text-stone-600">Forest</span>
                 </button>
 
-                {/* Elegant Theme */}
+                {/* Rose Theme */}
                 <button 
-                  onClick={() => handleThemeChange('elegant')}
-                  className={`p-4 border text-center transition-all ${linkBioProfile.theme === 'elegant' ? 'border-stone-800 ring-1 ring-stone-800' : 'border-stone-200 hover:border-stone-400'}`}
+                  onClick={() => handleThemeChange('rose')}
+                  className={`p-4 border text-center transition-all ${linkBioProfile.theme === 'rose' ? 'border-stone-800 ring-1 ring-stone-800' : 'border-stone-200 hover:border-stone-400'}`}
                 >
-                  <div className="w-full h-24 bg-gradient-to-b from-slate-900 to-slate-800 mb-2 rounded p-2 flex flex-col gap-1 items-center justify-center">
-                    <div className="w-6 h-6 rounded-full bg-amber-200/50"></div>
+                  <div className="w-full h-24 bg-gradient-to-br from-stone-500 via-stone-600 to-stone-700 mb-2 rounded p-2 flex flex-col gap-1 items-center justify-center">
+                    <div className="w-6 h-6 rounded-full bg-white/30 backdrop-blur-sm"></div>
                     <div className="w-full space-y-1">
-                      <div className="w-full h-1.5 bg-gradient-to-r from-amber-200 to-yellow-200 rounded-full"></div>
-                      <div className="w-full h-1.5 bg-gradient-to-r from-amber-200 to-yellow-200 rounded-full"></div>
-                      <div className="w-full h-1.5 bg-gradient-to-r from-amber-200 to-yellow-200 rounded-full"></div>
-                      <div className="w-full h-1.5 bg-gradient-to-r from-amber-200 to-yellow-200 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
                     </div>
                   </div>
-                  <span className="text-xs uppercase tracking-wider text-stone-600">Elegant</span>
+                  <span className="text-xs uppercase tracking-wider text-stone-600">Rose</span>
                 </button>
 
-                {/* Vibrant Theme */}
+                {/* Midnight Theme */}
                 <button 
-                  onClick={() => handleThemeChange('vibrant')}
-                  className={`p-4 border text-center transition-all ${linkBioProfile.theme === 'vibrant' ? 'border-stone-800 ring-1 ring-stone-800' : 'border-stone-200 hover:border-stone-400'}`}
+                  onClick={() => handleThemeChange('midnight')}
+                  className={`p-4 border text-center transition-all ${linkBioProfile.theme === 'midnight' ? 'border-stone-800 ring-1 ring-stone-800' : 'border-stone-200 hover:border-stone-400'}`}
                 >
-                  <div className="w-full h-24 bg-gradient-to-br from-blue-500 via-teal-400 to-green-400 mb-2 rounded p-2 flex flex-col gap-1 items-center justify-center">
-                    <div className="w-6 h-6 rounded-full bg-white/40 backdrop-blur-sm"></div>
+                  <div className="w-full h-24 bg-gradient-to-br from-stone-700 via-stone-800 to-stone-900 mb-2 rounded p-2 flex flex-col gap-1 items-center justify-center">
+                    <div className="w-6 h-6 rounded-full bg-white/30 backdrop-blur-sm"></div>
                     <div className="w-full space-y-1">
-                      <div className="w-full h-1.5 bg-white rounded-full shadow-md"></div>
-                      <div className="w-full h-1.5 bg-white rounded-full shadow-md"></div>
-                      <div className="w-full h-1.5 bg-white rounded-full shadow-md"></div>
-                      <div className="w-full h-1.5 bg-white rounded-full shadow-md"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
+                      <div className="w-full h-1.5 bg-gradient-to-r from-stone-300 to-stone-400 rounded-full"></div>
                     </div>
                   </div>
-                  <span className="text-xs uppercase tracking-wider text-stone-600">Vibrant</span>
+                  <span className="text-xs uppercase tracking-wider text-stone-600">Midnight</span>
                 </button>
               </div>
             </div>
@@ -361,7 +361,7 @@ const AdminLinksManager: React.FC = () => {
                       <div className="flex items-center gap-2">
                         <button 
                           onClick={() => updateLinkItem({...item, active: !item.active})}
-                          className={`text-xs px-2 py-1 rounded border ${item.active ? 'bg-green-50 text-green-700 border-green-200' : 'bg-stone-50 text-stone-400 border-stone-200'}`}
+                          className={`text-xs px-2 py-1 rounded border ${item.active ? 'bg-stone-100 text-stone-800 border-stone-300' : 'bg-stone-50 text-stone-400 border-stone-200'}`}
                         >
                           {item.active ? 'Active' : 'Hidden'}
                         </button>
